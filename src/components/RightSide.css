@@ -1,0 +1,47 @@
+.rightSide {
+  border: 8px solid #d1d5db;
+  overflow: scroll;
+}
+.events {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.filterimg {
+  position: relative;
+}
+.filterimg > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.person {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* .person > span {
+  display: block;
+} */
+.information {
+  /* border: 1px solid black; */
+  margin-top: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 8px;
+  background-color: #d1d5db;
+  cursor: pointer;
+}
+.date {
+  font-size: 13px;
+}
+.active {
+  background: #64748b;
+}

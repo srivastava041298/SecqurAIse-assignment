@@ -1,0 +1,49 @@
+.middle {
+  /* border: 1px solid black; */
+}
+.gender {
+  /* border: 1px solid black; */
+  /* margin-top: 1rem; */
+  padding: 1rem;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.section {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: calc(100% - 3rem - 20px - 20px);
+  padding: 20px;
+  padding-right: 40px;
+}
+
+.image > img {
+  width: 22rem;
+  height: 32rem;
+}
+.content {
+  /* border: 1px solid black; */
+  display: grid;
+  gap: 2rem;
+}
+.personDetail {
+  display: flex;
+  gap: 4rem;
+}
+.p > span {
+  display: block;
+  line-height: 1.5;
+}
+.d > span {
+  display: block;
+  line-height: 1.5;
+}
+.description > span {
+  display: block;
+  line-height: 1.5;
+}
+.head > h3:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
